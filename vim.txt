@@ -1,0 +1,56 @@
+g->d: busca definicion de variable local
+g->f: busca archivo insertado
+i: modo escritura
+:w guardar
+:q salir
+esc modo por defecto
+:q! salir forzado
+:wq guardar y salir
+d->d eliminar linea
+ctrl+shift+V: copiar desde el cliboard
+/palabra: buscar palabra hacia delante
+?palabra: busca palabra hacia atras
+shift+n: anterior palabra de busqueda
+n: siguiente palabra busqueda
+h: moverse izquierda
+j: moverse abajo
+k: moverse arriba
+l: moverse derecha
+shift+a: insertar al final
+a: modo escritura a partir espacio siguiente del  puntero
+i: modo escritura a partir espacio del  puntero
+o: agrega un salto de linea abajo y entra en modo escritura en la linea nueva
+shift+o: agrega un salto de linea arriba y entra en modo escritura en la linea nueva
+e: final siguiente palabra
+b: final anterior palabra
+d->e: borrar palbra hacia delante
+d->b: borrar palbra hacia atras
+ctrl+o: puntero en estado anterior
+ctrl+i: puntero en estado siguiente
+u: deshacer
+ctrl+r: redo
+g->g: puntero al inicio del documento
+[numero] -> g: va a la linea [numero]
+:[numero]: va a la linea [numero]
+shift+g: puntero al final del docuemnto
+shift+h: puntero al inicio del layout
+shift+m: puntero al medio del layout
+shift+l: puntero al final del layout
+shift+5: el puntero va al otro lado del parentesis ({[]})
+0: inicio de la linea
+shift+4: final de la linea
+d->d: borra la linea
+y->y: copia la linea
+p: pegar abajo
+shift+p: pega arriba
+:s/Antigua/Nueva: reemplaza una palabra Antigua por la Nueva
+:s/Antigua/Nueva/g: reemplaza cada palabra en la linea Antigua por la Nueva
+:%s/Antigua/Nueva/g: reemplaza cada palabra en el texto Antigua por la Nueva
+:%s/Antigua/Nueva/gc: reemplaza cada palabra en el texto Antigua por la Nueva preguntando
+v: entrar en modo visual para seleccionar
+y: copiar seleccion en modo visual
+d: cortar seleccion en modo visual
+[numero]->k: sube [numero] veces el puntero
+[numero]->h: izquierda [numero] veces el puntero
+[numero]->j: baja [numero] veces el puntero
+[numero]->l: derecha [numero] veces el puntero
